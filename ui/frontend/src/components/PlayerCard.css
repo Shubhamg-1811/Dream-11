@@ -1,0 +1,33 @@
+/* src/components/PlayerCard.css */
+
+.player-card {
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.player-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.help-button {
+  position: relative;
+}
+
+.player-card span {
+  z-index: 10;
+}
+
+/* Tooltip Styles */
+.tooltip-content {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  max-width: 200px;
+  word-wrap: break-word;
+}
+
+.tooltip-arrow {
+  fill: rgba(0, 0, 0, 0.8);
+}

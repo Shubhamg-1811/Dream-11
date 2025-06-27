@@ -1,0 +1,8 @@
+pandas==2.2.3
+fastapi==0.115.5
+uvicorn==0.32.1
+joblib==1.4.2
+gtts==2.5.4
+scikit-learn
+shap==0.46.0
+matplotlib==3.9.3
